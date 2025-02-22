@@ -5,7 +5,114 @@
 "1993-04-28":
     - headline: "🐣 I was born"
       description: "Thanks to my mom and dad for giving me birth"
-      based: "Mangalore,India"
+      based: "Mangalore"
       doing: "I was tiny"
-"1993-06-07":
+
+"1998-06-01":
+    - headline: "📓 Elementary school"
+      description: "Went to Aided Higher Primary School Ammunje. Just 2 kms away from home"
+      based: "Mangalore"
+      doing: "Student"
+      association: "Elementary school"
+
+"2005-04-11":
+    - headline: "👷🏽 I worked as a waiter at a sugarcane juice shop"
+      description: "They paid me 500 INR for 7 days. I did this job for next 3 year during my summer holiday"
+      based: "Mangalore"
+      doing: "Working"
+
+"2005-05-01":
+    - headline: "🏊‍♂️ Learned swimming"
+      description: "I'm still not good at it"
+      based: "Mangalore"
+      doing: "Working"
+
+"2005-06-01":
+    - headline: "📚 High school"
+      description: "Went to GOVT. High School Benjanapadavu"
+      based: "Mangalore"
+      doing: "High school student"
+      association: "Elementary school"
+
+"2008-06-01":
+    - headline: "📚 Pre University College"
+      description: "Went to Convent Pre University College, Modankap"
+      based: "Mangalore"
+      doing: "College student"
+      association: "Marist"
+
+"2010-06-01":
+    - headline: "📚 University College"
+      description: "Went to Sahyadri Engineering College,Mangalore"
+      based: "Mangalore"
+      doing: "College student"
+      association: "Marist"
+
+"2014-06-07":
     - headline: "🐣 Started my professional career as a Software Engineer"
+      description: "Robosoft Technologies Pvt Ltd, Udupi"
+      doing: "Working"
+      association: "Robosoft"
+
+"2015-04-01":
+    - headline: "💰 Started My Investment journey"
+      description: "PPF - Public Provident Fund"
+
+"2017-01-01":
+    - headline: "💰 Mutual Fund Investment"
+  
+"2018-10-01":
+    - headline: "💰 Direct Equity Investment"
+
+"2019-01-14":
+    - headline: "🇹🇭 My 2nd Job"
+      description: "🇹🇭 Moved to Bangkok,Started working for Agoda"
+      based: "Bangkok"
+      doing: "Working"
+      association: "Agoda"
+
+"2020-01-01":
+    - headline: "🧘🏽‍♂️ Yoga"
+      description: "Started learning yoga"
+
+"2019-05-14":
+    - headline: "🏋🏽‍♂️ Gym"
+      description: "Started Gym (2nd time) - Never stopped"
+
+"2019-06-09":
+    - headline: "🏃🏽‍♂️ 10k Run"
+      description: "First 10K Run"
+
+"2019-12-01":
+    - headline: "📚 Started reading books"
+      description: "Book was The Secret"
+
+"2022-07-12":
+    - headline: "💰 1st direct investment in USA"
+      description: "Bought google stock"
+
+"2023-05-14":
+    - headline: "🏃🏽‍♂️ 1st Half Marathon"
+      description: "First 21K Run - Half Marathon"
+
+"2024-01-07":
+    - headline: "🏃🏽‍♂️ 3rd Half Marathon"
+
+"2024-05-12":
+    - headline: "🏃🏽‍♂️ 4rd Half Marathon"
+
+"2024-08-12":
+    - headline: "🏃🏽‍♂️ 5rd Half Marathon"
+
+"2024-09-08":
+    - headline: "🏃🏽‍♂️ 6th Half Marathon"
+
+"2024-10-07":
+    - headline: "🎾 Tennis"
+      description: "Started learning tennis"
+
+"2024-11-02":
+    - headline: "🏃🏽‍♂️ 1st Trail Running(27K)"
+
+# "2025-02-22":
+#     - headline: "🌎 The Day I created this website"
