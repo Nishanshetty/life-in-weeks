@@ -1,6 +1,17 @@
 <script>
     $(document).ready(function () {
         $(function () {
+            // Theme: apply saved preference on load
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme === 'dark') {
+                document.documentElement.setAttribute('data-theme', 'dark');
+            }
+            const setThemeToggleLabel = () => {
+                const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+                $('#theme-toggle').text(isDark ? 'Light' : 'Dark');
+            };
+            setThemeToggleLabel();
+
             var today = new Date();
             $(".week").each(function (index) {
                 if (today < Date.parse($(this).attr("data-date"))) {
@@ -18,10 +29,31 @@
             const tooltipList = [...tooltipTriggerList].map(
                 (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl),
             );
+
+            // Initialize/refresh ScrollSpy with reasonable offset
+            bootstrap.ScrollSpy.getOrCreateInstance(document.body, {
+                target: '#lifeinweeks-navbar',
+                offset: 100,
+            });
         });
         $(window).on("scroll touchmove", function () {
             $("h1").toggleClass("tiny", $(document).scrollTop() > 0);
-            $(".navbar").toggleClass("d-block", $(document).scrollTop() > 200);
+            // Show decade navbar sooner
+            $(".navbar").toggleClass("d-block", $(document).scrollTop() > 80);
+        });
+
+        // Theme toggle handler
+        $(document).on('click', '#theme-toggle', function () {
+            const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+            if (isDark) {
+                document.documentElement.removeAttribute('data-theme');
+                localStorage.setItem('theme', 'light');
+            } else {
+                document.documentElement.setAttribute('data-theme', 'dark');
+                localStorage.setItem('theme', 'dark');
+            }
+            const label = isDark ? 'Dark' : 'Light';
+            $(this).text(label);
         });
     });
 </script>

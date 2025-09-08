@@ -12,6 +12,17 @@
     --header-font-size-mobile: 36px;
 }
 
+/* Dark theme overrides */
+:root[data-theme="dark"] {
+    --main-bg-color: #0f1115;
+    --text-color: #e2e8f0;
+    --header-text-color: var(--text-color);
+    --link-color: #cbd5e1;
+    --highlight-color: #f97316;
+    --future-border: #334155;
+    --future-bg-color: #1f2937;
+}
+
 @font-face {
     font-family: redhatdisplay-medium;
     src: url(/fonts/RedHatDisplay-Medium.ttf);
