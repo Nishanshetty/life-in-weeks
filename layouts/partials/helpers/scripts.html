@@ -38,8 +38,6 @@
         });
         $(window).on("scroll touchmove", function () {
             $("h1").toggleClass("tiny", $(document).scrollTop() > 0);
-            // Show decade navbar sooner
-            $(".navbar").toggleClass("d-block", $(document).scrollTop() > 80);
         });
 
         // Theme toggle handler
