@@ -38,6 +38,7 @@
         });
         $(window).on("scroll touchmove", function () {
             $("h1").toggleClass("tiny", $(document).scrollTop() > 0);
+            $(".navbar").toggleClass("d-block", $(document).scrollTop() > 80);
         });
 
         // Theme toggle handler

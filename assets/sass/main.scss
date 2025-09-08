@@ -149,8 +149,8 @@ a:hover {
     .navbar {
         --bs-navbar-padding-y: 0;
         margin-bottom: 2em;
-        display: block; /* Always visible */
-        opacity: 1;
+        display: none;
+        opacity: 0;
         animation: fadeIn 0.5s ease-out forwards;
         .nav-pills {
             --bs-nav-pills-border-radius: 0;
@@ -164,25 +164,6 @@ a:hover {
             --bs-nav-pills-link-active-color: var(--highlight-color);
             border-bottom: solid var(--highlight-color) 1px;
         }
-    }
-}
-
-/* Dark theme refinements for buttons and tooltips */
-:root[data-theme="dark"] {
-    .life-in-weeks {
-        .week,
-        .birthday {
-            /* Subtle dark overlay to tone down light backgrounds */
-            background-image: linear-gradient(rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06));
-            box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.06) inset;
-        }
-        .btn {
-            --bs-btn-color: var(--text-color);
-        }
-    }
-    .custom-tooltip {
-        --bs-tooltip-bg: var(--highlight-color);
-        --bs-tooltip-color: #ffffff;
     }
 }
 
